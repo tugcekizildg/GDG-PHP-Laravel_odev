@@ -1,1 +1,2 @@
-![Live Preview](https://66b13a03bef9a90ca8ae4854--genuine-souffle-da28a4.netlify.app)
+
+![YemekTarifiScreenshotDesktopDesign](https://github.com/user-attachments/assets/487691c0-dcf1-4944-bc6c-5a8aaab49cfa)
