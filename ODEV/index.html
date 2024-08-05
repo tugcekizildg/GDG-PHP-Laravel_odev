@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ODEV</title>
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header class="container">
+        <nav>
+            <div class="logo">
+                <a href="#">YAP YE!</a>
+            </div>
+            <ul class="nav-links">
+                <li class="nav-link-item"><a href="#anasayfa">Anasayfa</a></li>
+                <li class="nav-link-item"><a href="#tarifler">Tarifler</a></li>
+                <li class="nav-link-item"><a href="#pratik">Pratik Yemekler</a></li>
+                <li class="nav-link-item"><a href="#iletisim">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="food">
+            <div class="form-container">
+                <form class="my-form">
+                    <label for="name">Yemek Adı:</label>
+                    <input type="text" id="name" name="name">
+                    <div class="ingradients">
+                        <label for="ingredients">Malzeme:</label>
+                        <input type="text" id="ingredient" name="ingredients">
+                        <button type="submit" class="primary-btn">Ekle</button>
+                    </div>
+                    <div class="todo">
+                        <label for="todo">Tarif:</label>
+                        <textarea id="todo" name="todo" rows="3" required></textarea>
+
+                        <button type="submit" class="primary-btn">Yemek Ekle</button>
+                    </div>
+                </form>
+
+        </section>
+        <section id="tarif">
+            <div class="content">
+                <h2>Klasik Spagetti</h2>
+                <ul>
+                    <li>250 gram spagetti makarna</li>
+                    <li>2 yemek kaşığı zeytinyağı</li>
+                    <li>1 adet soğan, ince doğranmış</li>
+                    <li>2 yemek kaşığı domates salçası</li>
+                    <li>3 diş sarımsak, ince doğranmış</li>
+                </ul>
+                <button class="secondary-btn">Sil</button>
+            </div>
+            <div>
+                <h3>
+                    Tarifi
+                </h3>
+                <ol class="list">
+                    <li>Büyük bir tencerede bol tuzlu su kaynatın.</li>
+                    <li>Spagetti makarnayı ekleyin ve paketin üzerindeki talimatlara göre pişirin.</li>
+                    <li>Genellikle 8-10 dakika sürecektir.</li>
+                    <li>Makarna piştikten sonra süzün ve bir kenara alın.</li>
+                </ol>
+                <div>
+                    <button class="secondary-btn">Sil</button>
+                    <button class="primary-btn">Yapıldı</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; YAP YE! Tüm Hakları Saklıdır.</p>
+    </footer>
+</body>
+
+</html>
